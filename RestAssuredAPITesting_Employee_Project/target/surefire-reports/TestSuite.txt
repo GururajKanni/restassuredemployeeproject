@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 20.036 sec <<< FAILURE! - in TestSuite
+checkResponeBody(com.employeeapi.testCases.TC005_Delete_Employee_Record)  Time elapsed: 0.018 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:751)
+	at org.testng.Assert.assertEquals(Assert.java:761)
+	at com.employeeapi.testCases.TC005_Delete_Employee_Record.checkResponeBody(TC005_Delete_Employee_Record.java:51)
+
